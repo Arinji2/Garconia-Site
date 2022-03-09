@@ -1,0 +1,55 @@
+body {
+	background-color: black;
+}
+
+.Navigation {
+	list-style-type: none;
+	margin-left: 2%;
+	overflow: hidden;
+	margin-top: 10px;
+	padding-right: 3%;
+	position: absolute;
+	top: 8px;
+	right: 10px;
+}
+
+.Navigation li {
+	float: left;
+	list-style-type: none;
+	top: 1%;
+	left: 20%;
+}
+
+li a {
+	display: block;
+	color: #dde0dd;
+	text-align: center;
+	padding: 16px;
+	text-decoration-style: bold;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: red;
+}
+
+.container {
+	text-align: center;
+	color: white;
+}
+
+.Head {
+	font-family: "Sansita Swashed", cursive;
+	text-align: center;
+	font-size: 40px;
+	float: top;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.nav_img {
+	height: 500px;
+	width: 95%;
+}

@@ -1,7 +1,15 @@
 body {
 	background-color: black;
 }
-
+.logo {
+	height: 13%;
+	width: 8%;
+	position: absolute;
+	top: 3px;
+	left: 16px;
+	padding-left: 3%;
+	padding-top: 2%;
+}
 .Navigation {
 	list-style-type: none;
 	margin-left: 2%;
@@ -52,4 +60,68 @@ li a:hover {
 .nav_img {
 	height: 500px;
 	width: 95%;
+}
+
+.Title {
+	color: white;
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 30px;
+	text-decoration: underline red;
+}
+
+.wrapper {
+	text-align: left;
+	padding-left: 5%;
+}
+
+.index-what {
+	color: white;
+	font-family: "Roboto Slab", serif;
+	font-size: 40px;
+	text-decoration: underline dotted red;
+}
+
+.index-aboutus {
+	color: white;
+	font-family: "Roboto Slab", serif;
+	font-size: 20px;
+}
+
+.index-pic-1 {
+	float: right;
+	width: 20%;
+	padding-bottom: 5%;
+	position: relative;
+	top: -230px;
+	left: -20px;
+	border-radius: 50%;
+}
+
+.wrapper2 {
+	text-align: right;
+	padding-right: 5%;
+}
+
+.index-why {
+	color: white;
+	font-family: "Roboto Slab", serif;
+	font-size: 40px;
+	text-decoration: underline dotted red;
+}
+
+.index-why-a {
+	color: white;
+	font-family: "Roboto Slab", serif;
+	font-size: 20px;
+}
+
+.index-pic-2 {
+	float: left;
+	width: 20%;
+	padding-bottom: 5%;
+	position: relative;
+	border-radius: 50%;
+	top: -230px;
+	right: -20px;
 }

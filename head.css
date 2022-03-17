@@ -1,0 +1,10 @@
+body {
+	background-color: black;
+}
+
+.Head {
+	font-family: "Roboto Slab", serif;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}

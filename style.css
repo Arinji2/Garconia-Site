@@ -2,8 +2,8 @@ body {
 	background-color: black;
 }
 .logo {
-	height: 13%;
-	width: 8%;
+	height: 6%;
+	width: 3%;
 	position: absolute;
 	top: 3px;
 	left: 16px;
@@ -19,6 +19,19 @@ body {
 	position: absolute;
 	top: 8px;
 	right: 10px;
+	text-align: center;
+}
+
+.Navigation2 {
+	list-style-type: none;
+	margin-left: 2%;
+	overflow: hidden;
+	margin-top: 10px;
+	padding-right: 3%;
+	position: absolute;
+	top: 8px;
+	right: 10px;
+	text-align: center;
 }
 
 .Navigation li {
@@ -59,6 +72,11 @@ li a:hover {
 
 .nav_img {
 	height: 500px;
+	width: 95%;
+}
+
+.mobile_nav_img {
+	height: 300px;
 	width: 95%;
 }
 

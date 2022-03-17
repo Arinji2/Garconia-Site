@@ -41,10 +41,11 @@
 	position: absolute;
 	background-color: #f9f9f9;
 	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 8px 16px 0px rgba(211, 183, 183, 0.2);
 	z-index: 1;
 }
 .dropbtn {
+	/* DropDown button invisible in pc mode*/
 	background-color: black;
 	color: black;
 	padding: 16px;
@@ -54,12 +55,18 @@
 }
 
 @media only screen and (max-width: 600px) {
+	/* Css changes made when max width changes */
 	.Navigation li a {
 		display: block;
 		color: black;
 	}
+	.Navigation li a:hover {
+		/* Pc Navigation hover link invisible*/
+		color: black;
+	}
 
 	.dropbtn {
+		/* Dropdown button text visible */
 		background-color: black;
 		color: white;
 		padding: 16px;
@@ -89,6 +96,7 @@
 	/* Show the dropdown menu on hover */
 	.dropdown:hover .dropdown-content {
 		display: block;
+		color: red;
 	}
 
 	/* Change the background color of the dropdown button when the dropdown content is shown */

@@ -1,0 +1,32 @@
+.wrapper {
+	text-align: center;
+}
+
+.Title1 {
+	color: white;
+	font-family: "Roboto Slab", serif;
+	font-size: 40px;
+	text-decoration: underline dotted red;
+}
+
+.Para1 {
+	color: white;
+	font-size: 20px;
+}
+
+.index-pic-1 {
+	width: 20%;
+	padding-bottom: 5%;
+	position: relative;
+	border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+	.Para1 {
+		font-size: 30px;
+	}
+	.index-pic-1 {
+		height: 200px;
+		width: 70%;
+	}
+}

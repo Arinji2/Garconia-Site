@@ -8,10 +8,29 @@
 	font-size: 40px;
 	text-decoration: underline dotted red;
 }
+.Title2 {
+	color: white;
+	font-family: "Roboto Slab", serif;
+	font-size: 40px;
+	text-decoration: underline dotted red;
+}
 
 .Para1 {
 	color: white;
 	font-size: 20px;
+}
+
+.Para2 {
+	color: white;
+	font-size: 20px;
+}
+
+.Para1:hover {
+	text-decoration: underline solid coral;
+}
+
+.Para2:hover {
+	text-decoration: underline solid coral;
 }
 
 .index-pic-1 {
@@ -20,12 +39,33 @@
 	position: relative;
 	border-radius: 50%;
 }
-
+.index-pic-1:hover {
+	width: 30%;
+}
+.index-pic-2 {
+	width: 20%;
+	padding-bottom: 5%;
+	position: relative;
+	border-radius: 50%;
+}
+.index-pic-2:hover {
+	width: 30%;
+}
 @media only screen and (max-width: 600px) {
+	.Title1 {
+		padding-top: 50%;
+	}
 	.Para1 {
 		font-size: 30px;
 	}
 	.index-pic-1 {
+		height: 200px;
+		width: 70%;
+	}
+	.Para2 {
+		font-size: 30px;
+	}
+	.index-pic-2 {
 		height: 200px;
 		width: 70%;
 	}

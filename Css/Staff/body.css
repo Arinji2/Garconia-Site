@@ -48,6 +48,7 @@
 	.wrapper {
 		position: relative;
 		right: 40px;
+		padding-top: 60%;
 	}
 	.wrapper2 {
 		position: relative;
@@ -56,6 +57,7 @@
 	.luce-img {
 		height: 150px;
 		border-radius: 50%;
+		padding-left: 10%;
 	}
 
 	.Name {

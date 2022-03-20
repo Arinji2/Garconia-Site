@@ -32,3 +32,8 @@
 	text-decoration: none;
 	color: lightblue;
 }
+@media only screen and (max-width: 600px) {
+	.hint {
+		padding-top: 40%;
+	}
+}

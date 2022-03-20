@@ -1,0 +1,28 @@
+.wrapper {
+	text-align: center;
+	color: royalblue;
+}
+
+.map-image {
+	height: 300px;
+	border-radius: 50%;
+	border: 5px solid red;
+}
+.items {
+	color: white;
+}
+
+.guns {
+	color: white;
+}
+
+@media only screen and (max-width: 600px) {
+	.map-image {
+		height: 150px;
+		border-radius: 50%;
+		border: 2px solid red;
+	}
+	.map {
+		padding-top: 40%;
+	}
+}

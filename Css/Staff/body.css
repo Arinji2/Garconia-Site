@@ -1,11 +1,17 @@
 .wrapper {
+	padding-top: 150px;
 	float: left;
-	padding-left: 40%;
+	padding-left: 75px;
 }
 .wrapper2 {
-	padding-top: 5%;
+	padding-top: 150px;
 	float: left;
-	padding-left: 40%;
+	padding-left: 75px;
+}
+.wrapper3 {
+	padding-top: 125px;
+	float: left;
+	padding-left: 0px;
 }
 .staff {
 	color: lightcoral;
@@ -16,13 +22,14 @@
 .luce-img {
 	height: 290px;
 	border-radius: 50%;
+	padding-left: 0px;
 }
 
 .Name {
 	text-align: center;
 	font-size: 40px;
 	color: red;
-	padding-right: 13%;
+	padding-right: 75px;
 }
 
 .Role {

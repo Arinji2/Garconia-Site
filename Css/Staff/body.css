@@ -1,0 +1,15 @@
+.wrapper {
+	float: left;
+	padding-left: 5%;
+}
+
+.owner {
+	color: lightcoral;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+
+.luce-img {
+	height: 300px;
+	border-radius: 50%;
+}
